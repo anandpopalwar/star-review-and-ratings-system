@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rating & review system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <br>
+    <div class="input_container">
+        <h3>rating & review system</h3>
+        <div class="d-none" id="alert">
+            <h5 class="alertMsg" id="alertMsg"></h5>
+        </div>
+        <!-- <input type="text" name="" id=""> -->
+        <textarea name="discription" id="discription" cols="3" rows="3" placeholder="enter your review"></textarea>
+        <div class="retings">
+          <input type="number" name="" id="ratings" max="5" min="1" value="1" required >
+          
+        </div>
+        <!-- <div class="reviewStars">
+          
+        </div> -->
+        <button onclick="submit()">add review</button>
+    </div>
+    
+    <div class="reviewbtns">
+        <button class="star star1" onclick="showReview1()">1⭐</button>
+        <button class="star star2" onclick="showReview2()">2⭐</button>
+        <button class="star star3" onclick="showReview3()">3⭐</button>
+        <button class="star star4" onclick="showReview4()">4⭐</button>
+        <button class="star star5" onclick="showReview5()">5⭐</button>
+    </div>
+    <!-- <br> -->
+    <h2 id="yourrevs"></h2>
+    <!-- <br> -->
+
+
+   
+    <!-- <div class="user-container" id="userContainer" style="display:flex; justify-content:space-between">
+    
+        <div class="inner-card">
+            <h1>description</h1>
+            <h5>5</h5>
+        </div>
+
+    </div> -->
+
+    <div class="review_container" id="reviewContainer">
+        <div class="reviews">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
